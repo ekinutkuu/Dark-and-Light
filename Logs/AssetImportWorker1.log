@@ -254,3 +254,7 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Buildings/Buildings/SoulGothic_FreeSample_001-7.obj using Guid(9de50f4158e23424ea2e1ad515909cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cbded23999662fc30f9bc939869b0b6') in 0.027795 seconds 
 Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
