@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ekinutku\\Desktop\\Dosyalar\\yaz\u0131l\u0131m\\Unity\\Dark and Light\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9C2353D3-926B-85D8-299E-5F1CBE4ACCE2}|Assembly-CSharp.csproj|c:\\users\\ekinutku\\desktop\\dosyalar\\yaz\u0131l\u0131m\\unity\\dark and light\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9C2353D3-926B-85D8-299E-5F1CBE4ACCE2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9C2353D3-926B-85D8-299E-5F1CBE4ACCE2}|Assembly-CSharp.csproj|c:\\users\\ekinutku\\desktop\\dosyalar\\yaz\u0131l\u0131m\\unity\\dark and light\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9C2353D3-926B-85D8-299E-5F1CBE4ACCE2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9C2353D3-926B-85D8-299E-5F1CBE4ACCE2}|Assembly-CSharp.csproj|C:\\Users\\ekinutku\\Desktop\\Dosyalar\\yaz\u0131l\u0131m\\Unity\\Dark and Light\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C2353D3-926B-85D8-299E-5F1CBE4ACCE2}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,33 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\Users\\ekinutku\\Desktop\\Dosyalar\\yaz\u0131l\u0131m\\Unity\\Dark and Light\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\Users\\ekinutku\\Desktop\\Dosyalar\\yaz\u0131l\u0131m\\Unity\\Dark and Light\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAASAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAwCQAAAB6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-15T11:31:23.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\ekinutku\\Desktop\\Dosyalar\\yaz\u0131l\u0131m\\Unity\\Dark and Light\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
               "ToolTip": "C:\\Users\\ekinutku\\Desktop\\Dosyalar\\yaz\u0131l\u0131m\\Unity\\Dark and Light\\Assets\\Scripts\\CameraController.cs",
               "RelativeToolTip": "Assets\\Scripts\\CameraController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwCkAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T11:37:06.784Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T12:42:28.611Z"
             }
           ]
         }
