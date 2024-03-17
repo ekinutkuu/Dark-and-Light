@@ -11,12 +11,14 @@ public class PlayerController : MonoBehaviour
     Quaternion targetRotation;
 
     CameraController cameraController;
+    CharacterController characterController;
     Animator animator;
 
     private void Awake()
     {
         cameraController = Camera.main.GetComponent<CameraController>();
         animator = GetComponent<Animator>();
+        characterController = GetComponent<CharacterController>();
     }
 
     private void Update()
@@ -32,7 +34,7 @@ public class PlayerController : MonoBehaviour
 
         if (moveAmount > 0 )
         {
-            transform.position += moveDirection * moveSpeed * Time.deltaTime;
+            characterController.Move(moveDirection * moveSpeed * Time.deltaTime);
             targetRotation = Quaternion.LookRotation(moveDirection);
         }
 

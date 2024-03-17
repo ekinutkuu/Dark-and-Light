@@ -1,0 +1,372 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.36f1 (7a0645017be0) revision 7996997'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'tr' Physical Memory: 16128 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.36f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/ekinutku/Desktop/Dosyalar/yazılım/Unity/Dark and Light
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+60009
+Successfully changed project path to: C:/Users/ekinutku/Desktop/Dosyalar/yazılım/Unity/Dark and Light
+C:/Users/ekinutku/Desktop/Dosyalar/yazılım/Unity/Dark and Light
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8784] Host "[IP] 192.168.1.26 [Port] 0 [Flags] 2 [Guid] 1591670014 [EditorId] 1591670014 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F1HBLKA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8784] Host "[IP] 192.168.1.26 [Port] 0 [Flags] 2 [Guid] 1591670014 [EditorId] 1591670014 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-F1HBLKA) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 52.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.36f1 (7a0645017be0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ekinutku/Desktop/Dosyalar/yazılım/Unity/Dark and Light/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   31.0.15.5161
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56572
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.36f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003006 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 47.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.442 seconds
+Domain Reload Profiling:
+	ReloadAssembly (442ms)
+		BeginReloadAssembly (67ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (309ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (75ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (186ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (47ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (97ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.102 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1103ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (14ms)
+		EndReloadAssembly (931ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (187ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (633ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (558ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3071 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (46.9 KB). Loaded Objects now: 3551.
+Memory consumption went from 121.7 MB to 121.7 MB.
+Total: 2.661400 ms (FindLiveObjects: 0.174900 ms CreateObjectMapping: 0.080300 ms MarkObjects: 2.334600 ms  DeleteObjects: 0.070800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 213516.321574 seconds.
+  path: Assets/Buildings/Modular Village/Stone_Steps_Side_2.obj
+  artifactKey: Guid(01f3c79c2a80ff24786d6e92d28a9e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Stone_Steps_Side_2.obj using Guid(01f3c79c2a80ff24786d6e92d28a9e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28fda1a3bdbde3949a5ca668246a476') in 0.204856 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Buildings/Modular Village/Stucco_Doorway_Wide_Tall.obj
+  artifactKey: Guid(692facb34d1253940bc1462b9b1f6e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Stucco_Doorway_Wide_Tall.obj using Guid(692facb34d1253940bc1462b9b1f6e12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc50ed076faf29c4c64552b8bea6260') in 0.052423 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Buildings/Modular Village/Stucco_Doorway_Narrow_Tall.obj
+  artifactKey: Guid(74e1c6c028dfbf741baecfb778426db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Stucco_Doorway_Narrow_Tall.obj using Guid(74e1c6c028dfbf741baecfb778426db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e4260e9362c7e4801ded946a8af52db') in 0.048774 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 1.608929 seconds.
+  path: Assets/Buildings/Modular Village/Stucco_Prop_Support_Beam_3.obj
+  artifactKey: Guid(8ceb6282b482df446a3f24769ec9ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Stucco_Prop_Support_Beam_3.obj using Guid(8ceb6282b482df446a3f24769ec9ce04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deedb7efbcd28d01c4b22295fc17a5d9') in 0.029755 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Buildings/Modular Village/Stucco_Window_Double_Narrow.obj
+  artifactKey: Guid(6a7214fdfd9dd7645896b51076668457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Stucco_Window_Double_Narrow.obj using Guid(6a7214fdfd9dd7645896b51076668457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c8d813fbcf76aef0a0f59d10af903d') in 0.048560 seconds 
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.637087 seconds.
+  path: Assets/Buildings/Modular Village/Stucco_Window_Rounded_Narrow_Tall.obj
+  artifactKey: Guid(c1dc63f68e6d90e40929a93b01aa3837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Stucco_Window_Rounded_Narrow_Tall.obj using Guid(c1dc63f68e6d90e40929a93b01aa3837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '750d1ce95f07a25e7970f86dd1ac2289') in 0.044584 seconds 
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Buildings/Modular Village/Stucco_Window_Single_Wide_Tall.obj
+  artifactKey: Guid(00af7b73487d3b14691b0a47c9e6bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Stucco_Window_Single_Wide_Tall.obj using Guid(00af7b73487d3b14691b0a47c9e6bc31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7268e6e5778d4e4c70cf73414c0fb35') in 0.056655 seconds 
+Number of asset objects unloaded after import = 22
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Buildings/Modular Village/Wall_Prop_Door_Ornate.obj
+  artifactKey: Guid(77971b00412d3f944a2beb199b372c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Wall_Prop_Door_Ornate.obj using Guid(77971b00412d3f944a2beb199b372c70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52296050a1bbf67fd9f882713e734259') in 0.069910 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 0.488974 seconds.
+  path: Assets/Buildings/Modular Village/Wall_Prop_Door_Simple.obj
+  artifactKey: Guid(e18f3c692fd88a944a858179e4aeb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Wall_Prop_Door_Simple.obj using Guid(e18f3c692fd88a944a858179e4aeb3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d78dddad372dc9e73b1f65237da79f') in 0.064640 seconds 
+Number of asset objects unloaded after import = 37
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Buildings/Modular Village/Waterwheel_Flume_Ramp_Supported.obj
+  artifactKey: Guid(1b2df9e2511b6a94b8e3b19ffca7ab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Waterwheel_Flume_Ramp_Supported.obj using Guid(1b2df9e2511b6a94b8e3b19ffca7ab2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdcc08e2068e185165ea7e9c240fd071') in 0.045246 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Buildings/Modular Village/Waterwheel_Flume_Curved.obj
+  artifactKey: Guid(e2e0fa183eed6c44080ecd543ad8c08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Waterwheel_Flume_Curved.obj using Guid(e2e0fa183eed6c44080ecd543ad8c08e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd776c1dbe252d40db55e33bfe53ec34') in 0.045950 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 1.416702 seconds.
+  path: Assets/Buildings/Modular Village/Waterwheel_Flume_Straight.obj
+  artifactKey: Guid(a3630935a6c1d4c4bbd919e77414d9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Waterwheel_Flume_Straight.obj using Guid(a3630935a6c1d4c4bbd919e77414d9e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2c1150eb2b57731eeb66feade2d68a6') in 0.042745 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Buildings/Modular Village/Wood_Baseboard.obj
+  artifactKey: Guid(fce4f579f06bd22409a1c8cdd4f67f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Wood_Baseboard.obj using Guid(fce4f579f06bd22409a1c8cdd4f67f02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb50c769d9e30096e5443c925682075') in 0.042058 seconds 
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.053296 seconds.
+  path: Assets/Buildings/Modular Village/Wood_Floor_Straight_4.obj
+  artifactKey: Guid(4cb2a30a710fee4468bb07efb7a876fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Wood_Floor_Straight_4.obj using Guid(4cb2a30a710fee4468bb07efb7a876fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a77c989de91c02e7b3598cc4639d49') in 0.041231 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Buildings/Modular Village/Wood_Railing_Stairs.obj
+  artifactKey: Guid(4575d4469a46cab4281a62a8ac46ea55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Wood_Railing_Stairs.obj using Guid(4575d4469a46cab4281a62a8ac46ea55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44bd18de02ae019a59a34b8a59913104') in 0.142388 seconds 
+Number of asset objects unloaded after import = 56
+========================================================================
+Received Import Request.
+  Time since last request: 1.211692 seconds.
+  path: Assets/Buildings/Modular Village/Wood_Steps.obj
+  artifactKey: Guid(eb2003b313add3f42860849ec2a9616e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Modular Village/Wood_Steps.obj using Guid(eb2003b313add3f42860849ec2a9616e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f852b71b8d4be9dcb35a9f49c30f9a04') in 0.034274 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 234.176385 seconds.
+  path: Assets/Buildings/Ancient Environment
+  artifactKey: Guid(7b984750278913149bd498ff1ea581b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Ancient Environment using Guid(7b984750278913149bd498ff1ea581b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d44c9bfc846a3c8432d5d3d81fc2c0') in 0.012025 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.082397 seconds.
+  path: Assets/Buildings/Ancient Environment/AncientReliques-0-Alient_Statue.obj
+  artifactKey: Guid(3b6f277eb48d4ba4cb2a24676d918de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Ancient Environment/AncientReliques-0-Alient_Statue.obj using Guid(3b6f277eb48d4ba4cb2a24676d918de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1050c479d01879cf954aa5524aa254ff') in 0.048042 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Buildings/Ancient Environment/AncientReliques-3-Head_Totem.obj
+  artifactKey: Guid(a4f4ea095d412a54cac6f6d37d6d5f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Ancient Environment/AncientReliques-3-Head_Totem.obj using Guid(a4f4ea095d412a54cac6f6d37d6d5f37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511028b852c2f7499e6e94a55fa8cde6') in 0.045476 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Buildings/Ancient Environment/AncientReliques-5-Collumn.obj
+  artifactKey: Guid(96d4f0be912df184e820d56da107e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Ancient Environment/AncientReliques-5-Collumn.obj using Guid(96d4f0be912df184e820d56da107e5da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbe847574e5b1878046ac8edefc98ee') in 0.041986 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Buildings/Ancient Environment/AncientReliques.gif
+  artifactKey: Guid(424b0412e9e925c4482c4c629b823c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Ancient Environment/AncientReliques.gif using Guid(424b0412e9e925c4482c4c629b823c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27e7d3bbae4d8a94da83565b747b1d35') in 0.032160 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Buildings/Ancient Environment/AncientReliques-3-Head_Totem.png
+  artifactKey: Guid(d95160d47276fe84b87c355cdf512fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Ancient Environment/AncientReliques-3-Head_Totem.png using Guid(d95160d47276fe84b87c355cdf512fc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd79025053c4bcc636fc774fc334b343d') in 0.009258 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Buildings/Ancient Environment/AncientRockStatues.png
+  artifactKey: Guid(49b418695fb740348949967b732845bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Ancient Environment/AncientRockStatues.png using Guid(49b418695fb740348949967b732845bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00a01fb353cb2f176a9388c7bf63aa9d') in 0.014390 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Buildings/Ancient Environment/AncientTemple.obj
+  artifactKey: Guid(1ae302e3a4224ca46878e56d7276ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Ancient Environment/AncientTemple.obj using Guid(1ae302e3a4224ca46878e56d7276ef98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583ae21b6c5d644150c3f3195b046ca2') in 0.033047 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Buildings/Ancient Environment/AncientReliques-4-Collumn_Ruin.obj
+  artifactKey: Guid(3d77a23da06ac444098f3fafa44b5784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Buildings/Ancient Environment/AncientReliques-4-Collumn_Ruin.obj using Guid(3d77a23da06ac444098f3fafa44b5784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a47bd534b1d4ffb07ca011bc5a813300') in 0.028563 seconds 
+Number of asset objects unloaded after import = 11
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
