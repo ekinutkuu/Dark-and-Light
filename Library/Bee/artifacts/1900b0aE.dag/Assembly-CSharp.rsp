@@ -345,6 +345,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/CameraController.cs"
 "Assets/Scripts/DamageDealer.cs"
+"Assets/Scripts/EnemyMovement.cs"
 "Assets/Scripts/PlayerCombat.cs"
 "Assets/Scripts/PlayerController.cs"
 "Assets/_old/Player.cs"
