@@ -11,9 +11,12 @@ public class EnemyMovement : MonoBehaviour
     [SerializeField] float Speed = 10.0f;
     CharacterController controller;
 
+    Animator animator;
+
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     void Update()
@@ -28,6 +31,7 @@ public class EnemyMovement : MonoBehaviour
             float distance = Vector3.Distance(transform.position, player.position);
             if (distance <= triggerDistance)
             {
+                animator.SetFloat("moveAnim", Speed);
 
                 Vector3 direction = player.position - transform.position;
 
