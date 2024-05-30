@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,7 +13,7 @@ public class EnemyMovement : MonoBehaviour
     CharacterController controller;
 
     Animator animator;
-
+    
     void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -43,6 +44,14 @@ public class EnemyMovement : MonoBehaviour
                 controller.Move(direction * Speed * Time.deltaTime);
 
             }
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.transform == player)
+        {
+            animator.SetFloat("moveAnim", 0f);
         }
     }
 }

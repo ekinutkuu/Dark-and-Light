@@ -36,7 +36,7 @@ public class PlayerCombat : MonoBehaviour
             isAttacking = true;
             animator.SetTrigger("SwordAttack");
             animator.SetFloat("moveAnim", 0f);
-            Invoke("ResetMoveAnimation", 2);
+            Invoke("ResetMoveAnimation", 1.5f); //animation speed 1 olduðu zaman invoke 2
         }
     }
 
