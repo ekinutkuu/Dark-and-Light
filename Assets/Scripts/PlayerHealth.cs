@@ -11,6 +11,11 @@ public class PlayerHealth : MonoBehaviour
     {
     }
 
+    public float Health
+    {
+        get { return health; }
+    }
+
     public void TakeDamage(float damageAmount)
     {
         health -= damageAmount;
