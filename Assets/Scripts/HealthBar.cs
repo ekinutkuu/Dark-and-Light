@@ -27,12 +27,13 @@ public class HealthBar : MonoBehaviour
             healthSlider.value = currentHealth;
         }
 
-
+        /*
         if (Input.GetKeyDown(KeyCode.Space))
         {
             playerHealth.TakeDamage(1);
             Debug.Log("max health: "+maxHealth);
             Debug.Log("health: "+ currentHealth);
         }
+        */
     }
 }
