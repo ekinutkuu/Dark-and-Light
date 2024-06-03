@@ -28,6 +28,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void Die()
     {
-        print("game over!");
+        WinLoseManager.loseGame();
     }
+
 }
