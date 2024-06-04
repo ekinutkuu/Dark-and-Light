@@ -72,6 +72,8 @@ public class WinLoseManager : MonoBehaviour
     private IEnumerator toMainMenu()
     {
         yield return new WaitForSeconds(4);
+        hasPlayerWon = false;
+        isDead = false;
         SceneManager.LoadScene("MainMenu");
     }
 
